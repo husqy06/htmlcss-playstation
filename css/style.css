@@ -1,0 +1,16 @@
+.navbar-nav i {
+    font-size: 10px;
+    margin-left: 5px;
+    color: gray;
+}
+#search-icon {
+    font-size: 20px;
+    margin-top: 6px;
+    color: black;
+}
+#access-botton {
+    padding: 5px 10px;
+    background-color: #363636;
+    color: white;
+    border-radius: 20px;
+}
