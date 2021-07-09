@@ -15,9 +15,14 @@ a {
     background-color: #363636;
     color: white;
 }
+.blu-btn {
+    background-color: #2D64E6;
+    color: white;
+}
 .my-botton {
-    padding: 5px 10px;
+    padding: 7px 14px;
     border-radius: 20px;
+    font-weight: bold;
 }
 .banner {
     position: relative;
@@ -27,6 +32,7 @@ a {
 .banner-img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 .banner-text {
     position: absolute;
@@ -41,4 +47,32 @@ a {
 }
 .banner-logo {
     width: 220px;
+}
+.banner-list img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    padding: 3px;
+}
+.bu {
+    height: 300px;
+}
+.item-active {
+    border: 3px solid #2D64E6;
+}
+.presentation-text {
+   
+}
+.presentation-img {
+    height: 60vw;
+    background-image: url("../img/playstation-5-thumb.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: thistle;
+}
+
+@media (max-width: 777px) {
+    .presentation-img {
+        height: 100vw;
+    }
 }
