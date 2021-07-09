@@ -1,3 +1,6 @@
+a {
+    text-decoration: none;
+}
 .navbar-nav i {
     font-size: 10px;
     margin-left: 5px;
@@ -8,9 +11,34 @@
     margin-top: 6px;
     color: black;
 }
-#access-botton {
-    padding: 5px 10px;
+#access-btn {
     background-color: #363636;
     color: white;
+}
+.my-botton {
+    padding: 5px 10px;
     border-radius: 20px;
+}
+.banner {
+    position: relative;
+    height: 600px;
+    color: white;
+}
+.banner-img {
+    height: 100%;
+    width: 100%;
+}
+.banner-text {
+    position: absolute;
+    bottom: 50px;
+    left: 40px;
+    width: 420px;
+    font-size: 17px;
+}
+#buy-btn {
+    background-color: #CD3D0F;
+    color: white;
+}
+.banner-logo {
+    width: 220px;
 }
