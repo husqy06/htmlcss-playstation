@@ -6,6 +6,7 @@ a {
     padding: 7px 14px;
     border-radius: 20px;
     font-weight: bold;
+    cursor: pointer;
 }
 /* fine common */
 .banner {
@@ -49,6 +50,16 @@ a {
 /* fine navbar */
 
 /* bottoni */
+.white-btn {
+    background-color: white;
+    color: black;
+    
+}
+.ts-btn {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #2D64E6;
+    cursor: pointer;
+}
 .blu-btn {
     background-color: #2D64E6;
     color: white;
@@ -133,7 +144,22 @@ a {
 }
 .explore-ps4-title {
     font-size: 40px;
-    
+}
+
+.ps-plus {
+    background-color: #BEBCBB;
+}
+.ps-plus-left img {
+    max-width: 310px;
+    max-height: 70px;
+}
+.ps-plus-right img { 
+    width: 100%;
+    height: 100%;
+}
+
+.ps-now {
+    background-color: #161C3B;
 }
 @media (max-width: 767px) {
     #presentation-img {
@@ -142,5 +168,12 @@ a {
     }
     .ps5-list-text {
         display: none;
+    }
+    .ps-plus-right {
+        display: none;
+    }
+    .ps-plus-left img{
+        max-width: 80%;
+        max-height: 40%;
     }
 }
