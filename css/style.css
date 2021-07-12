@@ -161,6 +161,33 @@ a {
 .ps-now {
     background-color: #161C3B;
 }
+
+
+footer {
+    background-color: #00439C;
+}
+
+#logo-ft-1 {
+    width: 100px;
+    margin: 30px 0;
+}
+
+.ft-ul ul {
+    list-style: none;
+}
+.ft-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.ft-end img {
+    width: 150px;
+    display: block;
+    margin-bottom: 20px;
+}
+.ft-end {
+    width: 57%;
+}
 @media (max-width: 767px) {
     #presentation-img {
         height: 100vw;
@@ -175,5 +202,12 @@ a {
     .ps-plus-left img{
         max-width: 80%;
         max-height: 40%;
+    }
+    .ft-ul{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .ft-end {
+        width: 90%;
     }
 }
